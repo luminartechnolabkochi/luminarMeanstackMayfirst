@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+.nav-item a{
+    color: white;
+}
+
+.d-flex a{
+    color: white;
+}

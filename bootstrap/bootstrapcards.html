@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    
+        .dummy{
+            width: 800px;
+            height: 300px;
+            background-color: aqua;
+            font-size: larger;
+            font-weight: 600;
+
+        }
+
+
+
+        @media (max-width:400px){
+            .dummy{
+                background-color: yellow;
+                color:teal;
+                font-size: small;
+                font-weight: 200;
+            }
+        }
+        @media(max-width:600px){
+            .row{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .row{
+            width: 100%;
+            height: 400px;
+            background-color: tomato;
+            display: flex;
+            
+        }
+        .col{
+            width: 30%;
+            height: 200px;
+        }
+        .col-1{
+            background-color: blue;
+        }
+        .col-2{
+            background-color: brown;
+        }
+        .col-3{
+            background-color: burlywood;
+        }
+
+</style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+
+                <div class="col col-1">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptate ipsum totam assumenda, exercitationem hic nobis eaque tempora rem incidunt autem animi aspernatur porro tenetur eum. Ex est consequuntur suscipit.
+                </div>
+                <div class="col col-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quisquam rem id, temporibus, consequatur non cumque quasi, voluptas earum nisi voluptate eligendi dicta! Sunt, fugit! Atque, est saepe? Sed, quidem?
+                </div>
+                <div class="col col-3">
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem suscipit rerum tempore, id reiciendis distinctio nemo, quis repellendus veniam doloremque consequatur mollitia accusamus neque, explicabo reprehenderit eveniet corporis. Illo, maiores.
+
+                </div>
+
+
+
+
+
+        </div>
+
+
+        <!-- <div class="dummy">
+
+            hello
+        </div>
+    
+ -->
+
+    </div>
+
+
+
+  
+
+</body>
+
+</html>
